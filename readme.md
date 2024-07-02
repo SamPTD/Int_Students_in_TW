@@ -68,7 +68,7 @@ The findings of each aspect is summarized as followed:
 
 ## **Origins of international students in Taiwan:**
 
-
+![alt text](https://github.com/SamPTD/Plots/blob/main/1.1%20Current_Students_2015.PNG)
 
 * Top 10 are all Asian, making up almost 90% of total students.
 * In 2023, six ASEAN countries accounted for nearly 70% of total students.
