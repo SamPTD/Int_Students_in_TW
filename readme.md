@@ -83,7 +83,7 @@ The findings of each aspect is summarized as followed:
 
 ![alt text](https://github.com/SamPTD/Plots/blob/main/4.2%20ISP_VN_Comparison.PNG)
 
-## **Top disciplines chosen disciplines:**
+## **Top chosen disciplines:**
 
 ![alt text](https://github.com/SamPTD/Plots/blob/main/2.1%20Current_Students_by_Top_Disciplines.PNG)
 
