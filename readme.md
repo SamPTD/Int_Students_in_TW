@@ -68,18 +68,24 @@ The findings of each aspect is summarized as followed:
 
 ## **Origins of international students in Taiwan:**
 
-![alt text](https://github.com/SamPTD/Plots/blob/main/1.1%20Current_Students_2015.PNG)
+![alt text](https://github.com/SamPTD/Plots/blob/main/1.2%20Current_Students_2023.PNG)
 
 * Top 10 are all Asian, making up almost 90% of total students.
 * In 2023, six ASEAN countries accounted for nearly 70% of total students.
+
+![alt text](https://github.com/SamPTD/Plots/blob/main/1.3%20Current_Students_Plot.PNG)
+
 * From nearly 3,000 in 2015, the number of Vietnamese and Indonesian have increased more than 6 and 3 times respectively in 2023.
 * The main driver for the case of Vietnam: the Industry-School Program (ISP).
 * As of 2023, Vietnam accounts for almost 90% of the ISP students. Half of the Vietnamese students enrolling in ISP.
 
+![alt text](https://github.com/SamPTD/Plots/blob/main/4.1%20ISP_Top3_Origins.PNG)
+
+![alt text](https://github.com/SamPTD/Plots/blob/main/4.2%20ISP_VN_Comparison.PNG)
 
 ## **Top disciplines chosen disciplines:**
 
-
+![alt text](https://github.com/SamPTD/Plots/blob/main/2.1%20Current_Students_by_Top_Disciplines.PNG)
 
 * Over the last decade, there are five disciplines which continuously attract the most international students.
 * Business and Management stays top throughout the years.
@@ -89,14 +95,22 @@ The findings of each aspect is summarized as followed:
 * Language and Arts are in the top 5 and stay stable during the period.
 * In the group “Others”,  Medical and Health, Social and Behavioral Sciences and Journalism routinely make up the top 3.
 
+![alt text](https://github.com/SamPTD/Plots/blob/main/2.3%20Disciplines_of_Current_Students_2023.PNG)
+
 
 ## **Breakdown of ICT and Engineering:**
 
+![alt text](https://github.com/SamPTD/Plots/blob/main/3.1%20Top5_Origins_IT.PNG)
 
+![alt text](https://github.com/SamPTD/Plots/blob/main/3.2%20Top5_Origins_Engineering.PNG)
 
 * The top 3 ASEAN countries Vietnam, Indonesia and Malaysia account for most students in these tech fields.
 * From 3 to 1, the ratio of male and female in IT is now reduced to less than 2 to 1. Gender gap in Engineering is also narrowing.
 * Vietnam and the Philippines have had more female than male students in the IT department in the last couple of years.
+
+![alt text](https://github.com/SamPTD/Plots/blob/main/3.3%20Gender_Ratio_IT.PNG)
+
+![alt text](https://github.com/SamPTD/Plots/blob/main/3.4%20Gender_Ratio_Engineering.PNG)
 
 
 # **Results**
