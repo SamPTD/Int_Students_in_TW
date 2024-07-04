@@ -613,59 +613,59 @@ current_students_2023
 
 
 #Q1.2: Industrial-Academic Cooperation (IAC) Program Students
-# Filter Data for ISP
-ISP <- all_data %>%
-  filter(grepl("產學", `科系名稱 Major`)) %>%
-  unique(ISP$`國別名稱 Origin`)
+# Filter Data for IAC
+IAC <- all_data %>%
+  filter(grepl("產學", `科系名稱 Major`))
+  unique(IAC$`國別名稱 Origin`)
 
-# Compare Origins of ISP Students
-summarized_ISP <- ISP %>%
+# Compare Origins of IAC Students
+summarized_IAC <- IAC %>%
   group_by(`學年度 Year`, Origin_EN) %>%
   summarise(Total_Current_Students = sum(`學生總計 Current Students`, na.rm = TRUE)) %>%
   ungroup()
-top_origins_ISP <- summarized_ISP %>%
+top_origins_IAC <- summarized_IAC %>%
   group_by(Origin_EN) %>%
   summarise(Total_Students = sum(Total_Current_Students)) %>%
   ungroup() %>%
   arrange(desc(Total_Students)) %>%
   slice_head(n = 3) %>%
   pull(Origin_EN)
-summarized_ISP <- summarized_ISP %>%
-  mutate(Origin_Grouped = ifelse(Origin_EN %in% top_origins_ISP, Origin_EN, "Other"))
-summarized_ISP_grouped <- summarized_ISP %>%
+summarized_IAC <- summarized_IAC %>%
+  mutate(Origin_Grouped = ifelse(Origin_EN %in% top_origins_IAC, Origin_EN, "Other"))
+summarized_IAC_grouped <- summarized_IAC %>%
   group_by(`學年度 Year`, Origin_Grouped) %>%
   summarise(Total_Current_Students = sum(Total_Current_Students)) %>%
   ungroup()
-bar_chart_ISP <- ggplot(summarized_ISP_grouped, aes(x = `學年度 Year`, y = Total_Current_Students, fill = Origin_Grouped)) +
+bar_chart_IAC <- ggplot(summarized_IAC_grouped, aes(x = `學年度 Year`, y = Total_Current_Students, fill = Origin_Grouped)) +
   geom_bar(stat = "identity", position = "stack") +
   geom_text(aes(label = Total_Current_Students), 
             position = position_stack(vjust = 0.5), 
             size = 3, 
             color = "white", 
             fontface = "bold") +
-  labs(title = "Top 3 Origins of Current Students in ISP",
+  labs(title = "Top 3 Origins of Current Students in IAC",
        x = "Year", y = "Total Current Students") +
   theme_minimal() 
-bar_chart_ISP
+bar_chart_IAC
 
-# Compare ISP and Non-ISP Students from Vietnam
-vietnam_ISP_data <- all_data %>%
+# Compare IAC and Non-IAC Students from Vietnam
+vietnam_IAC_data <- all_data %>%
   filter(`Origin_EN` == "Vietnam") %>%
-  group_by(`學年度 Year`, In_ISP = grepl("產學", `科系名稱 Major`)) %>%
+  group_by(`學年度 Year`, In_IAC = grepl("產學", `科系名稱 Major`)) %>%
   summarise(Total_Current_Students = sum(`學生總計 Current Students`, na.rm = TRUE)) %>%
-  mutate(In_ISP = ifelse(In_ISP, "Vietnam ISP", "Vietnam Not ISP")) %>%
+  mutate(In_IAC = ifelse(In_IAC, "Vietnam IAC", "Vietnam Not IAC")) %>%
   ungroup()
-vietnam_ISP_comparison_chart <- ggplot(vietnam_ISP_data, aes(x = `學年度 Year`, y = Total_Current_Students, fill = In_ISP)) +
+vietnam_IAC_comparison_chart <- ggplot(vietnam_IAC_data, aes(x = `學年度 Year`, y = Total_Current_Students, fill = In_IAC)) +
   geom_bar(stat = "identity", position = "stack") +
   geom_text(aes(label = Total_Current_Students),
             position = position_stack(vjust = 0.5),
             size = 3, color = "white", fontface = "bold", show.legend = FALSE) + 
-  labs(title = "Comparison of Current Students from Vietnam in ISP vs. Not ISP",
+  labs(title = "Comparison of Current Students from Vietnam in IAC vs. Not IAC",
        x = "Year", y = "Total Current Students") +
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
-  scale_fill_manual(values = c("Vietnam ISP" = "blue", "Vietnam Not ISP" = "red"))
-vietnam_ISP_comparison_chart
+  scale_fill_manual(values = c("Vietnam IAC" = "blue", "Vietnam Not IAC" = "red"))
+vietnam_IAC_comparison_chart
 
 
 #Q2: Disciplines of International Students
