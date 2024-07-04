@@ -27,7 +27,7 @@ There are three steps for data processing: clean data, merge data and map discip
 * Merge data from sources D1 and D2.
 * Merge the combined dataset with source D3.
 * Create a "Discipline" column and use the 4th and 5th Edition standards to map major codes.
-* Map 2015 majors (4th edition) to 2016-2023 disciplines (5th edition) after verifying changes.
+* Map 2015 majors (4th edition) to 2017-2023 disciplines (5th edition) after verifying changes.
 
 The project is run on R Studio which can be downloaded here: [https://posit.co/downloads/](https://posit.co/downloads/).
 
