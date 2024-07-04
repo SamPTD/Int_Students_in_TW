@@ -612,12 +612,11 @@ current_students_2023 <- ggplot(data = world_data) +
 current_students_2023 
 
 
-#Q1.2: Industry-School Program (ISP) Students
+#Q1.2: Industrial-Academic Cooperation (IAC) Program Students
 # Filter Data for ISP
 ISP <- all_data %>%
   filter(grepl("產學", `科系名稱 Major`)) %>%
-  filter(grepl("國際", `科系名稱 Major`))
-unique(ISP$`國別名稱 Origin`)
+  unique(ISP$`國別名稱 Origin`)
 
 # Compare Origins of ISP Students
 summarized_ISP <- ISP %>%
