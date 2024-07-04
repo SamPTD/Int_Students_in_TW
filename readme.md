@@ -149,7 +149,7 @@ Data sources:
 
 
 
-* Links:
+* Links: [https://depart.moe.edu.tw/ED4500/News.aspx?n=5A930C32CC6C3818&sms=91B3AAE8C6388B96](https://depart.moe.edu.tw/ED4500/News.aspx?n=5A930C32CC6C3818&sms=91B3AAE8C6388B96)
 
 Taiwan’s Ministry of Education's 4th and 5th Edition Classification Standards for Academic Disciplines:
 
