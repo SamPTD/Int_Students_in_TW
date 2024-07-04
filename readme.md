@@ -42,7 +42,7 @@ There are 5 files in the project.
 
 1. Dataset.rar: compressed file containing original data set downloaded in csv format to be used in the R analysis. (Note: For overseas Chinese and Hong Kong, Macau students (D2), the header rows in the raw data were removed to prevent errors in R analyzing.)
 2. Plots.rar: compressed file containing plots created from the R program illustrating the findings.
-3. References.rar: compressed file containing additional information used in the analysis (namely the changes in disciplines based on the Ministry of Education's 4th and 5th Edition Classification Standards for Academic Disciplines.)
+3. References.rar: compressed file containing additional information used in the analysis (namely the changes in disciplines based on the Ministry of Education's 4th and 5th Edition Classification Standards for Academic Disciplines; this is the base for merging the disciplines between years 2015-16 and 2017-2023).
 4. Complete_codes.R: the coding used for this project.
 5. readme.md: file explaining the project and its findings.
 
@@ -61,7 +61,9 @@ The first part of the project starts with cleaning and merging the original data
 6. Merge Chinese Current Students and Graduates
 7. Merge All Data
 
-After having the compiled data, the second part of the project goes on with analysis of three aspects of international students in Taiwan: (1) origins and the impact of the Industry-School Program (ISP), (2) top disciplines by students, and (3) origins and gender ratios for Information and Communication Technology (ICT) and Engineering.
+After having the compiled data, the second part of the project goes on with analysis of three aspects of international students in Taiwan: (1) origins and the impact of the Industrial-Academic Cooperation (IAC) Program, (2) top disciplines by students, and (3) origins and gender ratios for Information and Communication Technology (ICT) and Engineering.
+
+Most schools involve in the IAC (產學合作) have "international" (國際) in the titles of their programs. Since the dataset records non-Taiwanese students and already excludes local Taiwanese, we decide to analyze all IAC programs appear in the dataset, including the ones that do not have "international" in the titles.
 
 The findings of each aspect is summarized as followed:
 
@@ -76,12 +78,12 @@ The findings of each aspect is summarized as followed:
 ![alt text](https://github.com/SamPTD/Plots/blob/main/1.3%20Current_Students_Plot.PNG)
 
 * From nearly 3,000 in 2015, the number of Vietnamese and Indonesian have increased more than 6 and 3 times respectively in 2023.
-* The main driver for the case of Vietnam: the Industry-School Program (ISP).
-* As of 2023, Vietnam accounts for almost 90% of the ISP students. Half of the Vietnamese students enrolling in ISP.
+* The main driver for the case of Vietnam: the Industrial-Academic Cooperation (IAC) Program.
+* As of 2023, Vietnam accounts for 85% of the IAC students. Half of the Vietnamese students enrolling in IAC.
 
-![alt text](https://github.com/SamPTD/Plots/blob/main/4.1%20ISP_Top3_Origins.PNG)
+![alt text](https://github.com/SamPTD/Plots/blob/main/1.4%20IAC_Top3_Origins.PNG))
 
-![alt text](https://github.com/SamPTD/Plots/blob/main/4.2%20ISP_VN_Comparison.PNG)
+![alt text](https://github.com/SamPTD/Plots/blob/main/1.5%20IAC_VN_Comparison.PNG)
 
 ## **Top chosen disciplines:**
 
@@ -115,7 +117,7 @@ The findings of each aspect is summarized as followed:
 
 # **Results**
 
-As shown from the findings, the landscape of international students in Taiwan is heavily focused on the Asian region, with Southeast Asian countries accounting for the majority. Vietnamese students have the biggest jump in numbers over the years and are the top country of origin as of 2023. The main driver for the case of Vietnam is the Industry-School Program (ISP) with half of the Vietnamese students in Taiwan enrolling via this program. As of 2023, Vietnamese accounted for nearly 90% of the ISP students. It needs further analysis and more data to determine what kind of impact this region-bias and country-dominance create for school programs in general and ISP in particular.
+As shown from the findings, the landscape of international students in Taiwan is heavily focused on the Asian region, with Southeast Asian countries accounting for the majority. Vietnamese students have the biggest jump in numbers over the years and are the top country of origin as of 2023. The main driver for the case of Vietnam is the Industrial-Academic Cooperation (IAC) Program with half of the Vietnamese students in Taiwan enrolling via this program. As of 2023, Vietnamese accounted for 85% of the IAC students. It needs further analysis and more data to determine what kind of impact this region-bias and country-dominance create for school programs in general and IAC in particular.
 
 Information and Communication Technology (ICT) and Engineering are among the most trendy and have the biggest increase during the studied period. Gender gaps in these disciplines are narrowing over the years. Targeted policies can help faster improve the gender ratios.
 
