@@ -137,7 +137,6 @@ Group BD-07 (“Big Data for Social Analysis” class):
 # **Acknowledgments**
 
 
-
 * We would like to thank Prof. Chung-Pei Pien of ICI/NCCU for his guidance and encouragement to finish this project. His “Big Data for Social Analysis” class is a mind-opening pathway to learn using R for data analyzing.
 * We have great help from AI language models like ChatGPT and Copilot. They play the roles of personal assistants, helping with questions, testing solutions and fixing all kinds of mistakes.
 * We are grateful for the online community who have struggled with the same problems and provided great support through their expertise.
@@ -147,4 +146,4 @@ Group BD-07 (“Big Data for Social Analysis” class):
 
 * Data sources: [https://depart.moe.edu.tw/ED4500/News.aspx?n=5A930C32CC6C3818&sms=91B3AAE8C6388B96](https://depart.moe.edu.tw/ED4500/News.aspx?n=5A930C32CC6C3818&sms=91B3AAE8C6388B96)
 
-* Taiwan’s Ministry of Education's 4th and 5th Edition Classification Standards for Academic Disciplines: [link]
+* Taiwan’s Ministry of Education's 4th and 5th Edition Classification Standards for Academic Disciplines: [https://depart.moe.edu.tw/ED4500/cp.aspx?n=283412AE33AC4D71](https://depart.moe.edu.tw/ED4500/cp.aspx?n=283412AE33AC4D71)
