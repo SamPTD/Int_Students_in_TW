@@ -7,7 +7,7 @@ Exploring the landscape of international students in Taiwan's higher-education
 
 Over the last decade, Taiwan has welcomed students from almost all countries and territories in the world (177 out of 195). There have been more than 4,000 courses for international students taught in over 170 universities all across the island. A deeper look into the picture will reveal nuanced clarity such as heavy focus on particular regions and countries, the impact and disproportionate distribution of the Industrial-Academic Cooperation program, and the gender ratio of trending disciplines.
 
-Insights about the international students' choices can help policy makers assess the efficiency of policies and measures for attracting foreign students, in particular ones that are related to the Industry-School Cooperation program. It can help policy makers develop better policies to attract students from specific regions and countries, as well as to improve gender ratio for targeted fields.
+Insights about the international students' choices can help policy makers assess the efficiency of policies and measures for attracting foreign students, in particular ones that are related to the Industrial-Academic Cooperation program. It can help policy makers develop better policies to attract students from specific regions and countries, as well as to improve gender ratio for targeted fields.
 
 The project analyzes data downloaded from the Directorate-General of Budget, Accounting and Statistics (DGBAS) of Taiwan. The range is from the year 2015 to 2023. The format is CSV. Each file contains information including schools, departments, countries of origins, gender.
 
