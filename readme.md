@@ -92,9 +92,9 @@ The findings of each aspect is summarized as followed:
 * Over the last decade, there are five disciplines which continuously attract the most international students.
 * Business and Management stays top throughout the years.
 * The most trendy are Hospitality, Engineering (double over the period) and Information Technology (increases 5 times).
-* Students from Vietnam, Indonesia and Malaysia make up the top countries.
+* Students from Vietnam, Indonesia and Malaysia make up the top countries of the most chosen disciplines.
 * Engineering is likely to surpass Business and Management as the top discipline.
-* Language and Arts are in the top 5 and stay stable during the period.
+* Language and Arts since 2017 has climbed into the Top 5 and stayed stable during the period.
 * In the group “Others”,  Medical and Health, Social and Behavioral Sciences and Journalism routinely make up the top 3.
 
 ![alt text](https://github.com/SamPTD/Plots/blob/main/2.3%20Disciplines_of_Current_Students_2023.PNG)
