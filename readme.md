@@ -40,9 +40,9 @@ There are 5 files in the project.
 
 
 
-1. Dataset.rar: compressed file containing original data set downloaded in csv format to be used in the R analysis. (Note: For overseas Chinese and Hong Kong, Macau students (D2), the header rows in the raw data were removed to prevent errors in R analyzing.)
-2. Plots.rar: compressed file containing plots created from the R program illustrating the findings.
-3. References.rar: compressed file containing additional information used in the analysis (namely the changes in disciplines based on the Ministry of Education's 4th and 5th Edition Classification Standards for Academic Disciplines; this is the base for merging the disciplines between years 2015-16 and 2017-2023).
+1. Dataset.zip: compressed file containing original data set downloaded in csv format to be used in the R analysis. (Note: For overseas Chinese and Hong Kong, Macau students (D2), the header rows in the raw data were removed to prevent errors in R analyzing.)
+2. Plots.zip: compressed file containing plots created from the R program illustrating the findings.
+3. References.zip: compressed file containing additional information used in the analysis (namely the changes in disciplines based on the Ministry of Education's 4th and 5th Edition Classification Standards for Academic Disciplines; this is the base for merging the disciplines between years 2015-16 and 2017-2023).
 4. Complete_codes.R: the coding used for this project.
 5. readme.md: file explaining the project and its findings.
 
